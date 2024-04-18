@@ -1,0 +1,15 @@
+h4 {
+  text-align: Center;
+  color: #088311;
+  font-family: 'Dancing Script', cursive;
+  font-size: 36px;
+  padding: 20px;
+}
+
+#intro {
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.25)), url('assets/coffee.jpg');
+  background-repeat: no-repeat;
+  background-position: center, center;
+  background-size: cover;
+  text-shadow: 2px 2px rgba(200,0,0,.3);
+}
