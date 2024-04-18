@@ -1,0 +1,1 @@
+// goofy-case = first and last character capitalized
