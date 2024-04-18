@@ -1,0 +1,44 @@
+body {
+  font-family: Roboto, sans-serif;
+  background: #E8DDCB;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box-set {
+  /*position: relative; */
+  height: 1400px;
+  background: #CDB380;
+  margin: 20px;
+}
+
+.box {
+  width: 125px;
+  height: 125px;
+  background:#036564;
+  color:#E8DDCB;
+  border: 2px solid #033649;
+  padding: 20px;
+ /* position: absolute; */
+}
+
+.box-1 {
+  top; 0;
+}
+
+.box-2 {
+  /*right: 0; */
+  top:0;
+  position: sticky;
+}
+
+.box-3 {
+  bottom: 0;
+}
+
+.box-4 {
+  bottom: 0;
+  right: 0;
+}
