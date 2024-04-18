@@ -1,0 +1,143 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+
+body {
+  position: relative;
+}
+
+.collapse {
+  font-size: 20px;
+}
+
+#hero-section {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.7)),
+      url("https://i.imgur.com/K1JxmGo.jpeg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 20%;
+  color: #EEF5FF;
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+  font-size: clamp(1rem, 10vw, 2rem); 
+}
+
+
+img {
+  height:180px; 
+  width: 180px;
+  background-position: center;
+  margin-top: 10px;
+  margin-left: -10px;
+  border-radius: 50%;
+  border: 2px solid #334756;
+}
+
+
+#mission-section {
+  background-color: #3D3C42;
+  min-height: 100vh;
+  font-size: clamp(1rem, 10vw, 2rem); 
+  color: #EAEAEA;
+}
+
+#mission-section img {
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  padding: 30px 0;
+  height: auto;
+  border-radius: 75px; 
+  border: 0px;
+}
+
+
+#mission-section h1 {
+  text-align: center;
+  padding: 100px 0;
+  font-family: 'Manrope', sans-serif;
+}
+
+#mission-section p {
+  font-size: 2rem;
+  font-family: 'Manrope', sans-serif;
+}
+
+#skills-section {
+  background-color: #334756;
+  color: #EAEAEA;
+  min-height: 100vh;
+  font-size: clamp(1rem, 10vw, 2rem); 
+}
+
+
+#skills-section h1 {
+  text-align: center;
+  padding: 100px 0;
+  font-family: 'Manrope', sans-serif;
+}
+
+
+
+#skills-section p {
+  font-size: 2rem;
+  text-aling: center;
+  font-family: 'Manrope', sans-serif;
+}
+
+#contact-section {
+  background-color: #3D3C42;
+  font-size: 120px; 
+  min-height: 100vh;
+  color: #EAEAEA;
+}
+
+#contact-section h1 {
+  text-align: center;
+  padding: 100px 0;
+  font-family: 'Manrope', sans-serif;
+}
+
+.skills .bi {
+  font-size: 120px;
+}
+
+.contact .bi {
+  color: #D8D9DA;
+}
+
+.contact:hover .bi {
+  color: #445069;
+}
+
+
+
+footer {
+    background-color: #082032;
+    color: #fff;
+    padding: 100px;
+    text-align: center;
+    min-height: 50vh;
+    flex-display: flex;
+    margin-top: auto;
+}
+
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+#mission-section-target,
+#skills-section-target,
+#contact-section-target {
+  position: relative;
+  top: 0px;
+}
+
+
+
+
+
