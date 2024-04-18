@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background-color: #CCD3CA;
+}
+
+#sign-up-container {
+  height: 300px;
+  width: 300px;
+  background-color: #F5E8DD;
+  border: solid #B5C0D0 1px;
+  margin: 100px auto;
+  padding: 50px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+button {
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.password-req {
+  font-size: 12px;
+  color: gray;
+}
+
+.password-req.not-met {
+  color: black;
+}
