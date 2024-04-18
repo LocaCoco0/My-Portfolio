@@ -1,0 +1,30 @@
+body {
+  font-size: 30px;
+}
+
+div {
+  width: 150px;
+  border: 1px solid black;
+}
+
+#purple {
+  background-color: #A086F0;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+#green {
+  background-color: #A8E854;
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/* #2DFCE1; */
